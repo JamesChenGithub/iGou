@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>11E831E3-FFAA-4858-97C1-4AB494BD8AC4</string>
+	<key>IDESourceControlProjectName</key>
+	<string>CarOnline</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>F184521B-B1E3-4DF1-9EC3-B7AB0E67EE96</key>
+		<string>file:///Users/James/SVNRoot/MACSVN/CarOnline</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>CarOnline.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>F184521B-B1E3-4DF1-9EC3-B7AB0E67EE96</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>F184521B-B1E3-4DF1-9EC3-B7AB0E67EE96</key>
+		<string>file:///Users/James/SVNRoot/MACSVN/CarOnline</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>file:///Users/James/SVNRoot/MACSVN/CarOnline/CarOnline/CarOnline.xcodeproj</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>F184521B-B1E3-4DF1-9EC3-B7AB0E67EE96</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>F184521B-B1E3-4DF1-9EC3-B7AB0E67EE96</string>
+			<key>IDESourceControlWCCName</key>
+			<string>CarOnline</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,61 @@
+//
+//  Prefix header
+//
+//  The contents of this file are implicitly included at the beginning of every source file.
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+
+
+#define kSupportMap 1
+
+#define kSupportGMap 1
+#define kSupportGoogleMap 1
+
+#define kSupportOldUI 0
+
+#define kSupportOldMaintananceUI 1
+
+#define kShowGoogleStreet 1
+
+
+
+
+#define kClientAppKey @"AxivS3HnHcKximeIoMIgZAzx"
+#define kServerAppKey @"AEZhcB4rCQQuo8q9ocLQwX68"
+
+
+#define kGoogleMapAppKey @"AIzaSyDujPU5I83yHVaet7VYWYkgJRCkad3Q4ew"
+
+#import "CarOnlineStringsHeader.h"
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+    #import <CoreLocation/CoreLocation.h>
+    #import <MapKit/MapKit.h>
+#if kSupportMap
+    #import "BMapKit.h"
+#endif
+
+#import <GoogleMaps/GoogleMaps.h>
+
+#import "GoogleMapBaseViewController.h"
+
+    #import "CommonLibrary.h"
+
+    #import "CustomViewsHeaders.h"
+
+    #import "WebServiceHeaders.h"
+
+    #import "AppUIHeaders.h"
+
+#ifdef DEBUG
+    #import "TestHeaders.h"
+#endif
+    #import "AppDelegate.h"
+#endif

@@ -1,0 +1,281 @@
+/* 
+  Localizable.strings
+  CarOnline
+
+  Created by James on 14-11-5.
+  Copyright (c) 2014年 James Chen. All rights reserved.
+*/
+
+// 通用
+"kOK_Str" = "Ok";
+"kCancel_Str" = "Cancel";
+"kBack_Str" = "Back";
+"kInputErr_Str" = "Wrong inputs";
+"kSetting_Str" = "Set";
+"kRequestError_Str" = "Enquiry error";
+
+
+"kDownRefreshLoadOver" = "No more data";
+
+"kDownReleaseToRefresh" = "Release to update...";
+
+"kDownDragUpToRefresh" = "Pull to update...";
+
+"kDownRefreshLoading" = "Loading...";
+
+
+// 登录
+"kLogin_Account_Str" = "Account";
+"kLogin_Password_Str" = "Password";
+"kLogin_Login_Str" = "Login";
+"kLogin_Account_Empty_Str" = "Please type account number";
+"kLogin_Password_Empty_Str" = "Please type password";
+
+//车状态相关
+"kVehicle_Status_Offline_Str" = "Offline";
+"kVehicle_Status_Online_Str" = "Online";
+"kVehicle_Status_Static_Str" = "Standby";
+"kVehicle_Status_Running_Str" = "Running";
+"kVehicle_Status_Stop_Str" = "Stop";
+"kVehicle_Speed_Format_Str" = "Speed：%dkm/h";
+
+// CarList
+"kCarList_Muilt_Title_Str" = "All Cars Monitoring";
+"kCarList_Title_Str" = "Car Manager";
+
+// MessageBox
+"kMessageBox_Title_Str" = "Alarm Message";
+"kMessageBox_NoMore_Str" = "No more data";
+
+// CarInfo
+"kCarInfo_Title_Str" = "My Car";
+"kCarInfo_Func_Str" = "Brief";
+"kCarInfo_Mile_Str" = "Mileage";
+"kCarInfo_SMS_Str" = "SMS Add";
+"kCarInfo_OverSpeed_Str" = "Overspeed";
+"kCarInfo_Tracking_Str" = "Tracking";
+"kCarInfo_Playback_Str" = "Playback";
+"kCarInfo_EleFence_Str" = "Fence";
+"kCarInfo_Query_Str" = "Get";
+"kCarInfo_SendMS_Tip_Str" = "This command will send by SMS,Send now?";
+"kCarInfo_NoGetPhoneNum_Tip_Str" = "No device GSM number";
+"kCarInfo_NoMsgFunc_Tip_Str" = "No SMS function";
+"kCarInfo_NoMsgFunc_Known_Str" = "I know";
+"kCarInfo_SendMSG_Fail_Str" = "SMS sent failed";
+
+"kCarInfoFunction_Func_Str" = "Brief";
+"kCarInfoFunction_Mile_Str" = "Mileage: Total mileage during the latest trip after engine starts on";
+"kCarInfoFunction_SMS_Str" = "SMS Add: Get current position of the car by SMS";
+"kCarInfoFunction_OverSpeed_Str" = "Overspeed: APP overspeed warning limit value setting";
+"kCarInfoFunction_Tracking_Str" = "Tracking: Routing making";
+"kCarInfoFunction_Playback_Str" = "Playback: Replay history routing";
+"kCarInfoFunction_EleFence_Str" = "Fence: Car allowable driving area setting";
+
+// CarElectronicFenceViewController
+"kCarElectronicFence_CurrentLoc_Format_Str" = "Current Scope:";
+
+// CarFencePanel
+"kCarFencePanel_Close_Str" = "Turn Off";
+"kCarFencePanel_Open_Str" = "Turn On";
+
+// CarPlaybackViewController
+"kCarPlayback_Playover_Str" = "Replay Completed";
+"kCarPlayback_NoRecord_Str" = "No data";
+
+
+// PlaybackPopupContentView
+"kPlaybackPopup_Title_Str" = "Replay time interval settings";
+"kPlaybackPopup_DateEmpty_Str" = "Date Settings";
+"kPlaybackPopup_FromTimeEmpty_Str" = "Start";
+"kPlaybackPopup_ToTimeEmpty_Str" = "To";
+"kPlaybackPopup_DateEmpty_Tip_Str" = "Date Settings";
+"kPlaybackPopup_FromTimeEmpty_Tip_Str" = "Start";
+"kPlaybackPopup_ToTimeEmpty_Tip_Str" = "To";
+
+"kPlaybackPopup_EndLagerNow_Tip_Str" = "Wrong end time";
+"kPlaybackPopup_StartLagerEnd_Tip_Str" = "Wrong start time";
+
+// DatePickerPopup
+"kDatePickerPopup_Title_Str" = "Replay time interval settings";
+"kDatePickerPopup_Clear_Str" = "Clear";
+
+// AppInfo
+"kAppInfo_Title_Str" = "System";
+"kAppInfo_Feedback_Str" = "Feedback";
+"kAppInfo_Help_Str" = "Help";
+"kAppInfo_CheckUpdate_Str" = "Check for update";
+"kAppInfo_AboutUs_Str" = "Service";
+"kAppInfo_Web_Str" = "Website";
+"kAppInfo_Wechat_Str" = "We Chat";
+"kAppInfo_Logout_Str" = "Logout";
+
+"kAppInfo_Update_Latest_Tip_Str" = "This is the latest version";
+"kAppInfo_Update_Upgrade_Str" = "Update";
+"kAppInfo_BrowseWeb_Str" = "Confirm visit website?";
+"kAppInfo_Feedback_Subject_Str" = "&subject=Feedback";
+"kAppInfo_Feedback_NoMail_Str" = "Email is not available in current version operation system";
+"kAppInfo_Feedback_NoMailAccount_Str" = "Email account is not created";
+"kAppInfo_Feedback_ContentFormat_Str" = "igou[%@(%@ = ]";
+"kAppInfo_Feedback_Receiver_Str" = "455134891@qq.com";
+"kAppInfo_Feedback_Succ_Str" = "Sent successfully,Thanks!";
+
+"kAppInfo_Help_LoadFail_Str" = "Load help page failed";
+
+"kAppInfo_AboutUs_ServerName_Str" = "Service:";
+"kAppInfo_AboutUs_Contact_Str" = "Contact:";
+"kAppInfo_AboutUs_Tel_Str" = "Mobile:";
+"kAppInfo_AboutUs_Mail_Str" = "Email:";
+"kAppInfo_AboutUs_Phone_Str" = "Telephone:";
+"kAppInfo_AboutUs_Address_Str" = "Address:";
+
+// CarStatusFloatView
+"kCarStatusFloatView_Update_Str" = "seconds";
+
+
+// WebService
+"kAlertListItem_Description_Format_Str" = "%@:%@\nAddress:%@\nTime：%@";
+
+// OBD
+"kOBD_Result_Normal_Str" = "Pass";
+"kOBD_Result_Abnormal_Str" = "Fault";
+"kOBD_Result_Qualified_Str" = "Pass";
+"kOBD_Result_Unqualified_Str" = "Fault";
+"kOBD_Result_Emerge_Str" = "Yes";
+"kOBD_Result_TurnOn_Str" = "No";
+
+"kOBD_Result_Enable_Str" = "enable";
+"kOBD_Result_Disable_Str" = "disable";
+
+
+"kOBD_Emission_Str" = "Emission";
+"kOBD_Safety_Str" = "Safety";
+"kOBD_Diagnosis_Str" = "Diagnosis";
+"kOBD_Data_Str" = "Data";
+"kOBD_Maintenance_Str" = "Maintenance";
+"kOBD_Alert_Str" = "Alarm";
+"kOBD_TirePressure_Str" = "TPMS";
+"kOBD_Setting_Str" = "Device";
+
+
+// OBD Emission
+"kOBDEmission_Scaning_Str" = "Scaning...";
+"kOBDEmission_EmissionNormal_Str" = "Emission Normally";
+"kOBDEmission_EmissionAbnormal_Str" = "Emission Abnormally";
+
+// OBDEmission
+"kOBDEmission_ExamineStatus_Str" =  "Examine:";
+"kOBDEmission_CatalyzeStatus_Str" =  "Catalyze:";
+"kOBDEmission_EGRStatus_Str" =  "EGR:";
+"kOBDEmission_EVAP_Str" =  "EVAP:";
+"kOBDEmission_MercuryStatus_Str" =  "Mercury:";
+"kOBDEmission_HotSensorStatus_Str" =  "HotSensor:";
+"kOBDEmission_HotCatalyzeStatus_Str" =  "HotCatalyze:";
+"kOBDEmission_FireStatus_Str" =  "Engine Misfire:";
+"kOBDEmission_FireStatus_YES_Str" = "No";
+"kOBDEmission_FireStatus_NO_Str" = "Pass";
+
+
+
+// OBD Setting
+"kOBDDeviceInfo_IMEI_Str" = "IMEI";
+"kOBDDeviceInfo_DeviceType_Str" = "Device type";
+"kOBDDeviceInfo_NewAddress_Str" = "Latest address";
+"kOBDDeviceInfo_DeviceName_Str" = "Device name";
+"kOBDDeviceInfo_SOS_Str" = "SOS Number";
+"kOBDDeviceInfo_DataUpdate_Str" = "Data update interval";
+
+"kOBDDeviceInfo_DeviceName_NotEmpty_Str" = "Device name couldn't be empty!";
+"kOBDDeviceInfo_DeviceName_Same_Str" = "Same device name!";
+
+"kOBDDeviceInfo_SOS_NotEmpty_Str" = "SOS number couldn't be empty!";
+"kOBDDeviceInfo_SOS_Same_Str" = "Same SOS number";
+
+"kOBDDeviceInfo_DataUpdate_Same_Str" = "Same data update interval";
+"kOBDDeviceInfo_DataUpdate_Invaild_Str" = "Invailed data update interval";
+"kOBDDeviceInfo_SOS_NULL_Str" = "Data update interval couldn't be empty!";
+
+
+
+// OBD Safe
+"kOBDSafe_Alerting_Str" = "Alert";
+"kOBDSafe_SetSecurity_On_Str" = "Monitoring on status";
+"kOBDSafe_SetSecurity_Off_Str" = "Monitoring off status";
+
+"kOBDSafe_VibrateAlert_Str" = "Vibration";
+"kOBDSafe_LFDoor_Str" = "LeftFront Door";
+"kOBDSafe_RFDoor_Str" = "RightFront Door";
+"kOBDSafe_LBDoor_Str" = "LeftBack Door";
+"kOBDSafe_RBDoor_Str" = "RightBack Door";
+"kOBDSafe_Light_Str" = "Light";
+"kOBDSafe_TailBox_Str" = "Tail Box";
+
+
+// OBDAlertSetting
+"kOBDAlertSetting_DownAlert_Str" = "Device remove alarm";
+"kOBDAlertSetting_LowPressAlert_Str" = "Device low power supply";
+"kOBDAlertSetting_FatiguedAlert_Str" = "Fatigue driving alarm";
+"kOBDAlertSetting_NotFireAlert_Str" = "Car standby long time alarm";
+"kOBDAlertSetting_Foramt_Str" = "%@ %@";
+"kOBDAlertSetting_ForamtError_Str" = "%@ %@ failed";
+
+
+// OBD Diagnosis
+"kOBDDiagnosis_DiagnosisNormal_Str" = "Diagnosis Normally";
+"kOBDDiagnosis_DiagnosisAbnormal_Str" = "Diagnosis Abnormally";
+
+// OBD Tire
+
+"kOBDTire_Normal_Str" = "Pressure Normally";
+"kOBDTire_Abnormal_Str" = "Pressure Abnormally";
+
+"kOBDTire_PressUnit_Str" = "Bar";
+"kOBDTire_TempUnit_Str" = "℃";
+
+"kOBDTire_LFTire_Str" = "Left Front Tire";
+"kOBDTire_RFTire_Str" = "Right Front Tire";
+"kOBDTire_LBTire_Str" = "Left Back Tire";
+"kOBDTire_RBTire_Str" = "Right Back Tire";
+
+"kOBDTire_NoSignal_Str" = "--";
+"kOBDTire_NoSignalTip_Str" = "No Signal";
+
+"kOBDTire_TempTooHigh_Str" = "High Temperature";
+"kOBDTire_PressTooLow_Str" = "Low Pressure";
+"kOBDTire_PressTooHigh_Str" = "High Pressure";
+
+
+
+// OBD Data
+"kOBDData_Normal_Str" = "Data normally";
+"kOBDData_Abnormal_Str" = "Data abnormally";
+
+
+// OBD Maintance
+
+"kOBDMaintance_NoMaintanceTip_Str" = "No Maintenance Notify";
+"kOBDMaintance_NeedMaintance_Str" = "Need Maintenance";
+"kOBDMaintance_NoNeedMaintance_Str" = "In Maintenance";
+
+"kOBDMaintance_MileageValue_Format_Str" = "%dkm";
+"kOBDMaintance_OverMileageKey_Str" = "Mileage over Maintenance";
+"kOBDMaintance_InMileageKey_Str" = "Rest mileage to Maintenance";
+
+"kOBDMaintance_MaintanceDay_Format_Str" = "%dDay";
+"kOBDMaintance_OverDayKey_Str" = "Time over Maintenance";
+"kOBDMaintance_InDayKey_Str" = "Rest time to Maintenance";
+
+"kOBDMaintance_OpenMileageNotify_Str" = "Mileage Maintenance Notify";
+"kOBDMaintance_OpenDayNotify_Str" = "Time Maintenance Notify";
+
+"kOBDMaintance_OFF_Str" = "OFF";
+
+"kOBDMaintance_MileageFormat_Str" = "%d\nkm";
+"kOBDMaintance_DayFormat_Str" = "%d\nDay";
+
+"kBaiduMapAuthorization_Failed_Str" = "Authorization failed";
+
+
+"kLocalNotificationFormat_Str" = "%d new alarm messages!";
+"kLocalOverSpeedNotificationFormat_Str" = "Car %@ overspeed driving!";
+
+

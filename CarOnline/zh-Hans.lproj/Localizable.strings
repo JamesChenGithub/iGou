@@ -1,0 +1,290 @@
+/*
+  Localizable.strings
+  CarOnline
+
+  Created by James on 14-11-5.
+  Copyright (c =  2014年 James Chen. All rights reserved.
+*/
+
+// 通用
+"kOK_Str" = "确定";
+"kCancel_Str" = "取消";
+"kBack_Str" = "返回";
+"kInputErr_Str" = "输入有误！";
+"kSetting_Str" = "设置";
+"kRequestError_Str" = "请求出错";
+
+
+"kDownRefreshLoadOver" = "没有更多了";
+
+"kDownReleaseToRefresh" = "松开即可更新...";
+
+"kDownDragUpToRefresh" = "上拉即可更新...";
+
+"kDownRefreshLoading" = "加载中...";
+
+
+// 登录
+"kLogin_Account_Str" = "帐号";
+"kLogin_Password_Str" = "密码";
+"kLogin_Login_Str" = "登录";
+"kLogin_Account_Empty_Str" = "请输入帐号！";
+"kLogin_Password_Empty_Str" = "请输入密码！";
+
+//车状态相关
+"kVehicle_Status_Offline_Str" = "离线";
+"kVehicle_Status_Online_Str" = "在线";
+"kVehicle_Status_Static_Str" = "静止";
+"kVehicle_Status_Running_Str" = "运行";
+"kVehicle_Status_Stop_Str" = "停";
+"kVehicle_Speed_Format_Str" = "车速：%dkm/h";
+
+// CarList
+"kCarList_Muilt_Title_Str" = "多车监控";
+"kCarList_Title_Str" = "车辆管理";
+
+// MessageBox
+"kMessageBox_Title_Str" = "报警信息";
+"kMessageBox_NoMore_Str" = "已无更多数据！";
+
+// CarInfo
+"kCarInfo_Title_Str" = "功能说明";
+"kCarInfo_Func_Str" = "功能说明";
+"kCarInfo_Mile_Str" = "里程";
+"kCarInfo_SMS_Str" = "短信取地址";
+"kCarInfo_OverSpeed_Str" = "超速警示";
+"kCarInfo_Tracking_Str" = "跟踪";
+"kCarInfo_Playback_Str" = "回放";
+"kCarInfo_EleFence_Str" = "电子围栏";
+"kCarInfo_Query_Str" = "获取";
+"kCarInfo_SendMS_Tip_Str" = "指定将以短信形式发送，是否发送？";
+"kCarInfo_NoGetPhoneNum_Tip_Str" = "未获取到手机号";
+"kCarInfo_NoMsgFunc_Tip_Str" = "该设备没有短信功能";
+"kCarInfo_NoMsgFunc_Known_Str" = "知道了";
+"kCarInfo_SendMSG_Fail_Str" = "短信发送失败";
+
+"kCarInfoFunction_Func_Str" = "设备功能";
+"kCarInfoFunction_Mile_Str" = "里程：汽车从上一次停留后连续行驶的里程。";
+"kCarInfoFunction_SMS_Str" = "短信取地址：短信获取汽车当前的位置。";
+"kCarInfoFunction_OverSpeed_Str" = "超速警示：车速超过所设速度信息后，设备会短信到绑定的手机号码。";
+"kCarInfoFunction_Tracking_Str" = "跟踪：实时绘制汽车路径。";
+"kCarInfoFunction_Playback_Str" = "回放：查看某时段汽车行驶路径";
+"kCarInfoFunction_EleFence_Str" = "电子围栏：汽车超过所寂的范围内后，设备会发短信报警。";
+
+// CarElectronicFenceViewController
+"kCarElectronicFence_CurrentLoc_Format_Str" = "当前范围：";
+
+// CarFencePanel
+"kCarFencePanel_Close_Str" = "关闭围栏";
+"kCarFencePanel_Open_Str" = "开启围栏";
+
+// CarPlaybackViewController
+"kCarPlayback_Playover_Str" = "轨迹播放完毕";
+"kCarPlayback_NoRecord_Str" = "查询不到记录";
+
+
+// PlaybackPopupContentView
+"kPlaybackPopup_Title_Str" = "设置回放时段";
+"kPlaybackPopup_DateEmpty_Str" = "请选择回放日期";
+"kPlaybackPopup_FromTimeEmpty_Str" = "开始时间";
+"kPlaybackPopup_ToTimeEmpty_Str" = "结束时间";
+"kPlaybackPopup_DateEmpty_Tip_Str" = "请选择回放日期";
+"kPlaybackPopup_FromTimeEmpty_Tip_Str" = "请选择开始时间";
+"kPlaybackPopup_ToTimeEmpty_Tip_Str" = "请选择结束时间";
+
+"kPlaybackPopup_EndLagerNow_Tip_Str" = "结束时间不应超过当前时间";
+"kPlaybackPopup_StartLagerEnd_Tip_Str" = "开始时间晚于结束时间";
+
+// DatePickerPopup
+"kDatePickerPopup_Title_Str" = "设置回放时段";
+"kDatePickerPopup_Clear_Str" = "清空数据";
+
+// AppInfo
+"kAppInfo_Title_Str" = "系统信息";
+"kAppInfo_Feedback_Str" = "意见反馈";
+"kAppInfo_Help_Str" = "帮助信息";
+"kAppInfo_CheckUpdate_Str" = "检查更新";
+"kAppInfo_AboutUs_Str" = "关于我们";
+"kAppInfo_Web_Str" = "访问官网";
+"kAppInfo_Wechat_Str" = "微信关注";
+"kAppInfo_Logout_Str" = "退出登陆";
+
+"kAppInfo_Update_Latest_Tip_Str" = "已经是最新版本";
+"kAppInfo_Update_Upgrade_Str" = "升级";
+"kAppInfo_BrowseWeb_Str" = "继续访问";
+"kAppInfo_Feedback_Subject_Str" = "&subject=意见反馈";
+"kAppInfo_Feedback_NoMail_Str" = "当前系统版本不支持应用内发送邮件功能";
+"kAppInfo_Feedback_NoMailAccount_Str" = "用户没有设置邮件账户";
+"kAppInfo_Feedback_ContentFormat_Str" = "iOS用户[%@(%@ = ]:意见反馈";
+"kAppInfo_Feedback_Receiver_Str" = "455134891@qq.com";
+"kAppInfo_Feedback_Succ_Str" = "提交成功，谢谢您的反馈。";
+
+"kAppInfo_Help_LoadFail_Str" = "加载帮助页失败";
+
+"kAppInfo_AboutUs_ServerName_Str" = "服务商：";
+"kAppInfo_AboutUs_Contact_Str" = "联系人：";
+"kAppInfo_AboutUs_Tel_Str" = "手机号码：";
+"kAppInfo_AboutUs_Mail_Str" = "Email：";
+"kAppInfo_AboutUs_Phone_Str" = "电话：";
+"kAppInfo_AboutUs_Address_Str" = "地址：";
+
+// CarStatusFloatView
+"kCarStatusFloatView_Update_Str" = "秒后刷新";
+
+
+// WebService
+"kAlertListItem_Description_Format_Str" = "%@：%@\n地址：%@\n报警时间：%@";
+
+// OBD
+"kOBD_Result_Normal_Str" = "正常";
+"kOBD_Result_Abnormal_Str" = "异常";
+"kOBD_Result_Qualified_Str" = "合格";
+"kOBD_Result_Unqualified_Str" = "不合格";
+"kOBD_Result_Emerge_Str" = "产生";
+"kOBD_Result_TurnOn_Str" = "打开";
+
+"kOBD_Result_Enable_Str" = "开启";
+"kOBD_Result_Disable_Str" = "关闭";
+
+
+"kOBD_Emission_Str" = "排放";
+"kOBD_Safety_Str" = "安全";
+"kOBD_Diagnosis_Str" = "诊断";
+"kOBD_Data_Str" = "数据";
+"kOBD_Maintenance_Str" = "保养";
+"kOBD_Alert_Str" = "警示设置";
+"kOBD_TirePressure_Str" = "胎压";
+"kOBD_Setting_Str" = "设置";
+
+
+// OBD Emission
+"kOBDEmission_Scaning_Str" = "扫描中...";
+"kOBDEmission_EmissionNormal_Str" = "排放正常";
+"kOBDEmission_EmissionAbnormal_Str" = "排放不正常";
+
+// OBDEmission
+"kOBDEmission_ExamineStatus_Str" =  "排放检测结果：";
+"kOBDEmission_CatalyzeStatus_Str" =  "催化剂：";
+"kOBDEmission_EGRStatus_Str" =  "EGR：";
+"kOBDEmission_EVAP_Str" =  "EVAP：";
+"kOBDEmission_MercuryStatus_Str" =  "泵检测：";
+"kOBDEmission_HotSensorStatus_Str" =  "热氧传感器组：";
+"kOBDEmission_HotCatalyzeStatus_Str" =  "热催化剂：";
+"kOBDEmission_FireStatus_Str" =  "失火：";
+"kOBDEmission_FireStatus_YES_Str" = "产生";
+"kOBDEmission_FireStatus_NO_Str" = "未产生";
+
+
+
+// OBD Setting
+"kOBDDeviceInfo_IMEI_Str" = "IMEI       ";
+"kOBDDeviceInfo_DeviceType_Str" = "设备型号";
+"kOBDDeviceInfo_NewAddress_Str" = "最新地址";
+"kOBDDeviceInfo_DeviceName_Str" = "设备名称";
+"kOBDDeviceInfo_SOS_Str" = "SOS号码";
+"kOBDDeviceInfo_DataUpdate_Str" = "数据更新周期";
+
+"kOBDDeviceInfo_DeviceName_NotEmpty_Str" = "设备名称不能为空！";
+"kOBDDeviceInfo_DeviceName_Same_Str" = "所输入内容跟当前设备名称相同！";
+
+"kOBDDeviceInfo_SOS_NotEmpty_Str" = "SOS号码不能为空！";
+"kOBDDeviceInfo_SOS_Same_Str" = "所输入内容跟当前SOS号码相同！";
+
+"kOBDDeviceInfo_DataUpdate_Same_Str" = "所输入内容跟当前数据更新周期相同！";
+"kOBDDeviceInfo_DataUpdate_Invaild_Str" = "所输入内容不合规则！";
+"kOBDDeviceInfo_SOS_NULL_Str" = "数据更新周期不能为空！";
+
+
+
+// OBD Safe
+"kOBDSafe_Alerting_Str" = "报警";
+"kOBDSafe_SetSecurity_On_Str" = "车已设防";
+"kOBDSafe_SetSecurity_Off_Str" = "车已撤防";
+
+"kOBDSafe_VibrateAlert_Str" = "震动报警";
+"kOBDSafe_LFDoor_Str" = "左前门";
+"kOBDSafe_RFDoor_Str" = "右前门";
+"kOBDSafe_LBDoor_Str" = "左后门";
+"kOBDSafe_RBDoor_Str" = "右后门";
+"kOBDSafe_Light_Str" = "车灯";
+"kOBDSafe_TailBox_Str" = "尾箱";
+
+// OBDAlertSetting
+"kOBDAlertSetting_DownAlert_Str" = "拆机报警";
+"kOBDAlertSetting_LowPressAlert_Str" = "低压报警";
+"kOBDAlertSetting_FatiguedAlert_Str" = "疲劳驾驶报警";
+"kOBDAlertSetting_NotFireAlert_Str" = "停车未熄火报警";
+"kOBDAlertSetting_Foramt_Str" = "%@%@。";
+"kOBDAlertSetting_ForamtError_Str" = "%@%@出错。";
+
+
+// OBD Diagnosis
+"kOBDDiagnosis_DiagnosisNormal_Str" = "无故障";
+"kOBDDiagnosis_DiagnosisAbnormal_Str" = "发现故障";
+
+
+
+// OBD Tire
+
+"kOBDTire_Normal_Str" = "胎压正常";
+"kOBDTire_Abnormal_Str" = "胎压异常";
+
+"kOBDTire_PressUnit_Str" = "Bar";
+"kOBDTire_TempUnit_Str" = "℃";
+
+"kOBDTire_LFTire_Str" = "左前轮";
+"kOBDTire_RFTire_Str" = "右前轮";
+"kOBDTire_LBTire_Str" = "左后轮";
+"kOBDTire_RBTire_Str" = "右后轮";
+
+"kOBDTire_NoSignal_Str" = "--";
+"kOBDTire_NoSignalTip_Str" = "无信号";
+
+"kOBDTire_TempTooHigh_Str" = "温度过高";
+"kOBDTire_PressTooLow_Str" = "气压过低";
+"kOBDTire_PressTooHigh_Str" = "气压过高";
+
+
+
+// OBD Data
+"kOBDData_Normal_Str" = "数据正常";
+"kOBDData_Abnormal_Str" = "数据异常";
+
+
+// OBD Maintance
+
+"kOBDMaintance_NoMaintanceTip_Str" = "未开启保养提醒";
+"kOBDMaintance_NeedMaintance_Str" = "需要保养";
+"kOBDMaintance_NoNeedMaintance_Str" = "保养未到";
+
+"kOBDMaintance_MileageValue_Format_Str" = "%dkm";
+"kOBDMaintance_OverMileageKey_Str" = "已超出保养里程";
+"kOBDMaintance_InMileageKey_Str" = "距离下次保养剩余里程";
+
+"kOBDMaintance_MaintanceDay_Format_Str" = "%d天";
+"kOBDMaintance_OverDayKey_Str" = "已超出保养天数";
+"kOBDMaintance_InDayKey_Str" = "距离下次保养剩余天数";
+
+"kOBDMaintance_OpenMileageNotify_Str" = "开启里程保养提醒";
+"kOBDMaintance_OpenDayNotify_Str" = "开启时间保养提醒";
+
+"kOBDMaintance_OFF_Str" = "OFF";
+
+"kOBDMaintance_MileageFormat_Str" = "%d\nkm";
+"kOBDMaintance_DayFormat_Str" = "%d\n天";
+
+"kBaiduMapAuthorization_Failed_Str" = "授权失败";
+
+
+
+"kLocalNotificationFormat_Str" = "您有%d条报警信息未读！";
+"kLocalOverSpeedNotificationFormat_Str" = "您的车%@已超速!";
+
+
+
+
+
+
+
+
+
